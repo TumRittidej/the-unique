@@ -87,7 +87,7 @@ ul.language li a:active {
 }
 
 .nav-bottom {
-  height: 45px;
+  height: 50px;
   background-color: #272727;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ ul.menu li a {
 
 header.banner {
   position: relative;
-  padding-top: 114px;
+  /* padding-top: 114px; */
   height: 100vh;
   width: 100vw;
 }
@@ -117,24 +117,24 @@ header.banner {
   color: #fff;
   position: absolute;
   top: 225px;
-  left: 300px;
+  left: 500px;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 2rem 3rem 2rem 2rem;
+  padding: 3rem 4rem 3rem 3rem;
 }
 .banner-title h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .banner-title p {
   margin-left: 1.4rem;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   letter-spacing: 6px;
 }
 .banner-title h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 .btn-seemore {
@@ -142,9 +142,10 @@ header.banner {
   margin-top: 2rem;
 }
 .btn-seemore a {
+  font-size: 1.2rem;
   display: block;
   text-decoration: none;
-  padding: 0.3rem 7rem;
+  padding: 0.4rem 7rem;
   background-color: #db9b8d;
   border: 1px solid #db9b8d;
   color: #fff;
@@ -157,19 +158,14 @@ header.banner {
 .carousel-indicators {
   margin-bottom: 3rem !important;
 }
-/* .carousel-item {
-  height: 100vh;
-  margin-bottom: 12px;
-} */
 .banner-img-1,
 .banner-img-2,
 .banner-img-3 {
   width: 100vw;
-  height: 82vh;
+  height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin-bottom: 12px; */
 }
 .banner-img-1 {
   background-image: url("./img/banner.png");
